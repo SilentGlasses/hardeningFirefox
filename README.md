@@ -27,11 +27,13 @@ Firefox has long been a popular browser choice for users prioritizing privacy an
 
 These decisions can introduce issues that may impact the browser’s ability to offer a fully private experience. Understanding these concerns allows users to make informed decisions about their browser configuration and online privacy practices.
 
-Firfor's changes to their Terms of Use has raised concerns as it included language that seems to grant Mozilla broad rights over users data. Privacy advocates and long time users have criticized Mozilla over concerns of potential implications and data ownership. Mozilla has responded that the Terms of Use were to explain how the browser function not to claim ownership of data and has announced revisions to amke things clearer but the damage has already been done and concern remains about transparency and trust in Mozilla and Firefox's commitments to privacy and security of it's users and their data.
-
 In this repo, I'll try to outline key privacy and security risks associated with the latest versions of Firefox and some advice to harden it should you choose to continue using it, that is, for as long as Mozilla allows users to make these changes.
 
 ## Recent Privacy & Security Concerns
+
+## Terms of Use Controversy
+
+The latest Firefox release introduced updated Terms of Use, which initially contained language suggesting Mozilla could claim broad rights over user data. This wording raised significant concerns among privacy advocates, as it appeared to conflict with Firefox’s reputation as a privacy-first browser. Mozilla responded by clarifying that the terms were intended to explain how the browser functions and that the company does not claim ownership of user data. While Mozilla has committed to revising the wording for better transparency, the controversy has led to broader concerns about trust and clarity in its privacy policies.
 
 ### Telemetry & Data Collection
 
