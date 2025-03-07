@@ -1,8 +1,8 @@
 # A 2025 Guide to Hardening Firefox for Privacy and Security
 
-While Firefox remains one of the more privacy-respecting mainstream browsers, it still requires manual hardening to ensure maximum security and privacy. Hardening Firefox requires a balance between privacy, security, and usability. By implementing the above changes, you significantly reduce your exposure to tracking, fingerprinting, and data collection.
+While Firefox remains one of the more privacy-respecting mainstream browsers, it still requires manual hardening to ensure maximum security and privacy. Hardening Firefox requires a balance between **privacy**, **security**, and **usability**. By implementing the above changes, you significantly reduce your exposure to **tracking**, **fingerprinting**, and **data collection**.
 
-If you’re looking for even stronger privacy, consider using Firefox forks like LibreWolf or combining Firefox with a hardened OS such as Tails or Qubes OS.
+If you’re looking for even stronger privacy, consider using Firefox forks like **LibreWolf** or combining Firefox with a hardened OS such as **Tails** or **Qubes OS**.
 
 Stay private and browse safely!
 
@@ -31,7 +31,7 @@ Modify the following settings:
     - `toolkit.telemetry.enabled` → **false**
     - `toolkit.telemetry.unified` → **false**
 - Disable Studies:
-    - `app.shield.optoutstudies.enabled → **false**
+    - `app.shield.optoutstudies.enabled` → **false**
 - Block Fingerprinting:
     - `privacy.resistFingerprinting` → **true**
 - Disable WebGL (Reduces fingerprinting risks but may impact graphics performance):
@@ -40,6 +40,8 @@ Modify the following settings:
     - `network.cookie.cookieBehavior` → **1** (Blocks third-party cookies)
 - Enforce HTTPS (Prevents unencrypted connections):
     - `dom.security.https_only_mode` → **true**
+- Disable WebAuthn (Prevents browser-based face recognition authentication)
+        - `security.webauth.webauthn` → **false**
 
 ## Install Privacy-Focused Add-ons
 
@@ -50,6 +52,7 @@ Extensions can further enhance privacy and security. Consider installing:
 - Decentraleyes → Prevents tracking through content delivery networks (CDNs)
 - Cookie AutoDelete → Deletes cookies when tabs are closed
 - LocalCDN → Replaces external libraries with local copies
+- CanvasBlocker → Prevents fingerprinting via canvas API
 
 ⚠️ Avoid Privacy-Invasive Add-ons:
 
